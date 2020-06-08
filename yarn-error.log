@@ -1,0 +1,40 @@
+Arguments: 
+  /home/whs/.nvm/versions/node/v14.3.0/bin/node /home/whs/.yarn/bin/yarn.js
+
+PATH: 
+  /home/whs/.yarn/bin:/home/whs/.config/yarn/global/node_modules/.bin:/home/whs/.yarn/bin:/home/whs/.config/yarn/global/node_modules/.bin:/home/whs/.nvm/versions/node/v14.3.0/bin:/home/whs/.local/bin:/home/whs/bin:/home/whs/.rvm/gems/ruby-2.7.0/bin:/home/whs/.rvm/gems/ruby-2.7.0@global/bin:/home/whs/.rvm/rubies/ruby-2.7.0/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/whs/.rvm/bin:/home/whs/.rvm/bin:/usr/local/go/bin:/home/whs/.rvm/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.3.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+      "name": "bazel_rules_docker_ts_test",
+      "version": "0.1.0",
+      "private": true,
+      "devDependencies": {
+          "@bazel/bazelisk": "latest",
+          "@bazel/ibazel": "latest",
+          "@bazel/buildifier": "latest"
+      },
+      "scripts": {
+          "build": "bazel build //...",
+          "test": "bazel test //..."
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
